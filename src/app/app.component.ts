@@ -12,7 +12,7 @@ import { switchMap, catchError } from 'rxjs/operators';
   styleUrl: './app.component.css',
 })
 export class AppComponent implements OnDestroy {
-  title = 'api-exemple';
+  title = 'api-example';
   valueDisplay = '-';
   isPositive = false;
   private pollingSubscription?: Subscription;
