@@ -62,7 +62,8 @@
               "buildTarget": "api-exemple:build:production"
             },
             "development": {
-              "buildTarget": "api-exemple:build:development"
+              "buildTarget": "api-exemple:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
